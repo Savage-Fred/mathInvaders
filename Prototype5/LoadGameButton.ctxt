@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=w\ h
+comment0.target=LoadGameButton(int,\ int)
+comment0.text=\n\ LoadGameButton\ constructor.\n\ @param\ w\ for\ width\ of\ button.\n\ @param\ h\ for\ height\ of\ button.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act()\ method\ currently\ displays\ error\ message.\ \n
+comment2.params=
+comment2.target=boolean\ wasClicked()
+comment3.params=b
+comment3.target=void\ setClicked(boolean)
+numComments=4

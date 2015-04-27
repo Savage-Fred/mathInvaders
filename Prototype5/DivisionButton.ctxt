@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=width\ height\ dif
+comment0.target=DivisionButton(int,\ int,\ char)
+comment1.params=
+comment1.target=void\ act()
+comment2.params=dif
+comment2.target=void\ setDifficulty(char)
+comment3.params=
+comment3.target=char\ getDifficulty()
+numComments=4

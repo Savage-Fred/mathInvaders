@@ -1,0 +1,20 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Basic Menu from which all other menu classes are derived. 
+ * @author Will McCarty
+ * @version Version 4/10/2015 ver 2.2
+ */
+public class Menu extends World
+{ 
+    protected UserInfo worldUser = new UserInfo();
+    /**
+     * basic Menu constructor that builds an 800 x 600 pixel grid. 
+     */
+    public Menu()
+    {   
+        super(800, 600, 1);
+    }
+    
+    public UserInfo getUserInfo(){return worldUser;}
+}

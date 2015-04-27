@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=duration
+comment0.target=Timer(int)
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ onFinish()
+comment3.params=time
+comment3.target=java.lang.String\ getText(int)
+comment4.params=duration
+comment4.target=int\ getWidth(int)
+numComments=5

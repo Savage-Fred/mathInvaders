@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=width\ height\ dif
+comment0.target=DifficultyButton(int,\ int,\ char)
+comment0.text=\n\ DifficultyButton\ Constructor.\n\ @param\ width\ for\ width\ of\ box\ as\ int.\n\ @param\ height\ int\ for\ height\ of\ button.\n\ @param\ dif\ char\ for\ difficulty\ (a,s,d,m).\n
+comment1.params=dif
+comment1.target=void\ setDiffImage(char)
+comment1.text=\n\ setDiffImage\ sets\ the\ image\ for\ the\ button.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ DifficultyButton\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment3.params=
+comment3.target=char\ getUserDiff()
+numComments=4
