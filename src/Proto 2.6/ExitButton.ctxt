@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=w\ h
+comment0.target=ExitButton(int,\ int)
+comment0.text=\r\n\ @param\ w\ for\ width\ of\ box.\r\n\ @param\ h\ for\ height\ of\ box.\r\n
+comment1.params=
+comment1.target=void\ act()
+numComments=2

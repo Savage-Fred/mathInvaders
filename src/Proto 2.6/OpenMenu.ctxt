@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=OpenMenu()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ OpenMenu.\r\n\ \r\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=UserInfo\ getUserInfo()
+comment3.params=uI
+comment3.target=void\ setUserInfo(UserInfo)
+numComments=4

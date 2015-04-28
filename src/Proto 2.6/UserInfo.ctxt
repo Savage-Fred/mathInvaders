@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=UserInfo()
+comment0.text=\r\n\ Empty\ UserInfo\ Constructor\ to\ initialize\ all\ values\ to\ empty\ or\ zero.\ \r\n
+comment1.params=nm\ nu\ type\ dif
+comment1.target=UserInfo(java.lang.String,\ boolean,\ char,\ char)
+comment1.text=\r\n\ UserInfo\ Constructor\ \r\n\ @param\ nm\ name\ of\ user.\r\n\ @param\ nu\ boolean.\ Is\ user\ new?\r\n\ @param\ type\ char\ for\ game\ type.\r\n\ @param\ dif\ char\ for\ difficulty.\r\n
+comment2.params=nm
+comment2.target=void\ setUserName(java.lang.String)
+comment3.params=gt
+comment3.target=void\ setGameType(char)
+comment4.params=df
+comment4.target=void\ setDifficulty(char)
+comment5.params=n
+comment5.target=void\ setNewUser(boolean)
+comment6.params=
+comment6.target=java.lang.String\ getUserName()
+comment7.params=
+comment7.target=char\ getGameType()
+comment8.params=
+comment8.target=char\ getDifficulty()
+comment9.params=
+comment9.target=boolean\ getNewUser()
+numComments=10

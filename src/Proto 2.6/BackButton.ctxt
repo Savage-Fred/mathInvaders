@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=w\ h
+comment0.target=BackButton(int,\ int)
+comment0.text=\ basic\ empty\ constructor\ for\ backbutton.\ Returns\ to\ home.\ \r\n\ @param\ w\ int\ for\ width\ of\ button\ rectangle.\r\n\ @param\ h\ int\ for\ height\ of\ button\ rectangle.\r\n
+comment1.params=w\ h\ curCl\ retCl
+comment1.target=BackButton(int,\ int,\ java.lang.String,\ java.lang.String)
+comment1.text=\ Constructor\ for\ BackButton\ with\ return\ and\ current\ worlds\ as\ params.\ \r\n\ creates\ button\ of\ size\ w*h\ and\ gets\ the\ current\ world\ name\ and\ goes\ back\ to\ the\ previous\ world.\r\n\ @param\ w\ int\ for\ width\ of\ button\ rectangle.\r\n\ @param\ h\ int\ for\ height\ of\ button\ rectangle.\r\n\ @param\ curCl\ String\ for\ the\ name\ of\ the\ current\ world.\ \r\n\ @param\ retCl\ String\ for\ name\ of\ world\ we\ want\ to\ return\ to.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ act\ method\ checks\ for\ click\ and\ gets\ the\ current\ world.\ It\ returns\ to\ the\ previous\ page.\r\n
+numComments=3

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=width\ height
+comment0.target=NewGameButton(int,\ int)
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ method\ invoked\ by\ Greenfoot\ framework.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=nm
+comment3.target=void\ setName(java.lang.String)
+comment4.params=
+comment4.target=boolean\ wasClicked()
+comment5.params=s
+comment5.target=void\ setClicked(boolean)
+numComments=6

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Menu()
+comment0.text=\r\n\ basic\ Menu\ constructor\ that\ builds\ an\ 800\ x\ 600\ pixel\ grid.\ \r\n
+comment1.params=
+comment1.target=void\ startTheMusic1()
+comment2.params=
+comment2.target=void\ stopTheMusic1()
+numComments=3

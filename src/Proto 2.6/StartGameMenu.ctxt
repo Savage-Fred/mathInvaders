@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StartGameMenu()
+comment0.text=\r\n\ Empty\ Constructor\ for\ StartGameMenu\r\n
+comment1.params=type
+comment1.target=StartGameMenu(char)
+comment1.text=\r\n\ StartGameMenu\ Constructor\ for\ arcade\ mode.\ \r\n\ @param\ type\ char\ for\ type\ of\ game.\r\n
+comment2.params=type\ diff
+comment2.target=StartGameMenu(char,\ char)
+comment2.text=\ \r\n\ Constructor\ for\ StartGameMenu\ that\ includes\ gametype\ and\ difficulty.\ \r\n\ @param\ type\ char\ for\ type\ of\ game\ ('a'\ or\ 'r').\r\n\ @param\ diff\ char\ for\ difficulty\ ('a',\ 's',\ 'm',\ 'd',\ or\ 'x'\ for\ arcade);\r\n
+numComments=3

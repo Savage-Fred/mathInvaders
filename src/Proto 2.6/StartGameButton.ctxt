@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=width\ height\ type\ diff
+comment0.target=StartGameButton(int,\ int,\ char,\ char)
+comment0.text=\r\n\ @param\ width\ int\ for\ button\ box.\r\n\ @param\ height\ int\ for\ height\ of\ button\ box.\r\n\ @param\ type\ char\ for\ gameType\ (a\ or\ r).\r\n\ @param\ diff\ char\ for\ game\ difficulty\ (a,d,s,m).\r\n
+comment1.params=width\ height\ type
+comment1.target=StartGameButton(int,\ int,\ char)
+comment1.text=\r\n\ Constructor\ for\ arcade\ mode\ without\ difficulty.\r\n\ @param\ width\ of\ button\ box.\r\n\ @param\ height\ of\ button\ box.\r\n\ @param\ type\ char\ for\ game\ type.\ \r\n
+comment2.params=width\ height
+comment2.target=StartGameButton(int,\ int)
+comment2.text=\ \r\n\ Constructor\ that\ just\ takes\ height\ and\ width.\ Difficulty\ and\ type\ come\ form\ elsewhere.\r\n\ This\ isn't\ finished.\ \r\n\ @param\ width\ int\ for\ width\ of\ text\ box.\r\n\ @param\ height\ int\ for\ height\ of\ text\ box.\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act()\ method\ gets\ the\ type\ of\ game\ that\ the\ user\ wants\ and\ starts\ that\ \r\n\ game\ by\ building\ the\ world.\ \r\n
+comment4.params=d
+comment4.target=void\ setStartDifficulty(char)
+comment5.params=t
+comment5.target=void\ setGameType(char)
+numComments=6
