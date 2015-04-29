@@ -11,6 +11,7 @@ public class Addition extends Problem
     int n1;
     int n2;
     int answer;
+    public static int addScore;
     public Addition()
     {
         n1 = Greenfoot.getRandomNumber(RANGE);
@@ -42,7 +43,7 @@ public class Addition extends Problem
         int check = UserInput.answ;
         if (check == this.getAnswer())
         {
-            //getWorld().score.increaseScore();
+            addScore++;
             getWorld().addObject(new Explosion(), getX(), getY());
             getWorld().removeObject(this);
         }

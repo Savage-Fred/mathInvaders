@@ -11,12 +11,14 @@ public class Multiplication extends Problem
     int n1;
     int n2;
     int answer;
+    public static int multScore;
    public Multiplication()
     {
         n1 = Greenfoot.getRandomNumber(RANGE);
         n2 = Greenfoot.getRandomNumber(RANGE);
         setImage(new GreenfootImage(n1 + " x " + n2, 30, Color.WHITE, null));
         answer = n1 * n2;
+        
     }
     /**
      * Act - do whatever the Multiplication wants to do. This method is called whenever
@@ -43,6 +45,7 @@ public class Multiplication extends Problem
         int check = UserInput.answ;
         if (check == this.getAnswer())
         {
+            multScore++;
             getWorld().addObject(new Explosion(), getX(), getY());
             getWorld().removeObject(this);
         }

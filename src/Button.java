@@ -10,6 +10,13 @@ import java.awt.Color;  // (World, Actor, GreenfootImage, Greenfoot and MouseInf
 public class Button extends Actor
 {
     private boolean wasClicked = false;
+    
+    /** Empty Button Constructor*/
+    public Button() {}
+    
+    /**
+     * Constructor with height and width
+     */
     public Button(int width, int height) {
         GreenfootImage emptyRect = new GreenfootImage(width, height);
     }

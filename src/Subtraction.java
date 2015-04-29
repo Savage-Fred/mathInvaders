@@ -11,6 +11,7 @@ public class Subtraction extends Problem
     int n1;
     int n2;
     int answer;
+    public static int subScore;
     public Subtraction()
     {
         int n1 = Greenfoot.getRandomNumber(RANGE);
@@ -50,6 +51,7 @@ public class Subtraction extends Problem
         int check = UserInput.answ;
         if (check == this.getAnswer())
         {
+            subScore++;
             getWorld().addObject(new Explosion(), getX(), getY());
             getWorld().removeObject(this);
         }

@@ -1,8 +1,12 @@
 #BlueJ class context
 comment0.params=
 comment0.target=Arcade()
-comment1.params=number
-comment1.target=void\ createStars(int)
+comment1.params=
+comment1.target=void\ startTheMusic2()
 comment2.params=
-comment2.target=void\ act()
-numComments=3
+comment2.target=void\ stopTheMusic2()
+comment3.params=number
+comment3.target=void\ createStars(int)
+comment4.params=
+comment4.target=void\ act()
+numComments=5

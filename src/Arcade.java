@@ -10,7 +10,7 @@ public class Arcade extends World
 {
     static int missed;
     static int count;
-    
+    private static GreenfootSound gameMusic = new GreenfootSound("intro-responder.mp3");
     public Arcade() 
     {
         super(800, 600, 1, false);
@@ -19,15 +19,25 @@ public class Arcade extends World
         //background.fill();
         //createStars(300);
         Explosion.initialiseImages();
+        Menu.stopTheMusic1();
        missed = 0;
        addObject(new User(), 400, 595);
        addObject(new UserInput(), 400, 590);
        addObject(new BuzzTimer(60000), 730, 25);
-       Score score = new Score();
-       addObject(score, 730, 50);
+       
+       addObject(new Score(), 730, 50);
        count = 0;
+       //Greenfoot.playSound("intro-responder.mp3");
+       startTheMusic2();
     }
-    
+    public static void startTheMusic2()
+    {
+        gameMusic.playLoop();
+    }
+    public static void stopTheMusic2()
+    {
+        gameMusic.stop();
+    }
     private void createStars(int number) 
     {
         GreenfootImage background = getBackground();             
@@ -67,5 +77,11 @@ public class Arcade extends World
        {
            //Greenfoot.stop();
        }
+       
+       // Pause Menu 
+       //if (Greenfoot.isKeyDown("p")) {
+         //  addObject(new PauseMenu(), 100, 200);
+           //Greenfoot.stop();
+       //}
     } 
 }

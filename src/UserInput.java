@@ -33,9 +33,16 @@ public class UserInput extends Actor
             input += i2;
         }
         setImage(new GreenfootImage(input, 30, Color.MAGENTA, null));
-        if (input != null && input != "" && input != "backspace")
+        try
         {
+            if (input != null && input != "" && input != "backspace")
+            {
             answ = Integer.parseInt(input);
+            }
+        }
+        catch (NumberFormatException e)
+        {
+            input = "";
         }
     }    
    

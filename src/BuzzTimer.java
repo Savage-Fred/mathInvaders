@@ -9,7 +9,9 @@ public class BuzzTimer extends Timer
 
     protected void onFinish()
     {
+        Arcade.stopTheMusic2();
         Greenfoot.playSound("Bzz.mp3");
+        Score.setScore(0);
         Greenfoot.stop();
     }
 }

@@ -30,20 +30,27 @@ public class OpenMenu extends Menu
      */
     public OpenMenu()
     {  
-        
+        Greenfoot.start();
         addObject(newGame, 400, 280);
         addObject(loadGame, 400, 370);
         addObject(i, 400, 540);
+        
     }
     
     
     public void act() {
+        
         if (loadGame.wasClicked()) {
              BasicText t = new BasicText("Nothing to see here for now.");
              addObject(t, 400, 400);
              loadGame.setClicked(false);
-             if(newGame.wasClicked()) {removeObject(t); }
+             if(newGame.wasClicked()) 
+             {
+                
+                 removeObject(t);
+             }
         }
+        
     }
     
     public UserInfo getUserInfo(){return u;}

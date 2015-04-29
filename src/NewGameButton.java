@@ -5,6 +5,8 @@ import javax.swing.JOptionPane;
 /**
  * NewGameButton brings up box for user to enter a new name and starts a new game. 
  * 
+ * New user swing pane commented out. 
+ * 
  * @author Will McCarty
  * @version 4/10/2015
  */
@@ -30,8 +32,8 @@ public class NewGameButton extends Button
     {
         wasClicked = Greenfoot.mouseClicked(this);
         if (wasClicked == true) { 
-            String inputValue = JOptionPane.showInputDialog("Please Enter Your Name");
-            this.setName(inputValue);
+            //String inputValue = JOptionPane.showInputDialog("Please Enter Your Name");
+            //this.setName(inputValue);
             Greenfoot.setWorld(new GameTypeMenu());
         }
             

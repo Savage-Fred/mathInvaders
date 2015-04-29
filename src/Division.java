@@ -11,6 +11,7 @@ public class Division extends Problem
     int n1;
     int n2;
     int answer;
+    public static int divScore;
     public Division()
     {
         n1 = Greenfoot.getRandomNumber(RANGE);
@@ -46,6 +47,7 @@ public class Division extends Problem
         int check = UserInput.answ;
         if (check == this.getAnswer())
         {
+            divScore++;
             getWorld().addObject(new Explosion(), getX(), getY());
             getWorld().removeObject(this);
         }

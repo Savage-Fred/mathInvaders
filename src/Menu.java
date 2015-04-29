@@ -3,18 +3,36 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Basic Menu from which all other menu classes are derived. 
  * @author Will McCarty
- * @version Version 4/10/2015 ver 2.2
+ * @version Version 4/10/2015 ver 1
  */
 public class Menu extends World
-{ 
-    protected UserInfo worldUser = new UserInfo();
+{
+    // Create an empty UserInfo class. 
+    //private UserInfo userInfo = new UserInfo();
     /**
      * basic Menu constructor that builds an 800 x 600 pixel grid. 
      */
     public Menu()
     {   
-        super(800, 600, 1);
+        super(800, 600, 1); 
+        startTheMusic1();
     }
     
-    public UserInfo getUserInfo(){return worldUser;}
+    private static GreenfootSound bgMusic = new GreenfootSound("nostro-28.wav");
+ 
+    public static void startTheMusic1()
+    {
+        bgMusic.playLoop();
+    }
+ 
+    public static void stopTheMusic1()
+    {
+        bgMusic.stop();
+    }
+
+    public static void shootStars() {
+        int randTime = Greenfoot.getRandomNumber(100);
+    }
+    
+    //public UserInfo getUserInfo() {return userInfo;}
 }
